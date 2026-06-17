@@ -8,7 +8,7 @@ backend-path = [ "." ]
 [project]
 name = "pyproject-fmt"
 description = "Format your pyproject.toml file"
-readme = { file = "README.rst", content-type = "text/x-rst" }
+readme = {file = "README.md", content-type = "text/markdown"}
 keywords = [
   "format",
   "pyproject",
@@ -90,7 +90,7 @@ include = [
   { path = "rust-toolchain.toml", format = "sdist" },
   { path = "docs/", format = "sdist" },
   { path = "CHANGELOG.md", format = "sdist" },
-  { path = "README.rst", format = "sdist" },
+  { path = "README.md", format = "sdist" },
 ]
 exclude = [
   "**/*.pyc",
